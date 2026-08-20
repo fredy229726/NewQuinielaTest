@@ -39,7 +39,7 @@ th {
 }
 
 @media (max-width: 720px) {
-    th {
+    th, td {
         padding: 4px 6px;
         font-size: 8px;
     }
@@ -47,12 +47,6 @@ th {
     .tabla-posiciones, .tabla-resultados {
         table-layout: fixed;
         width: 100%;
-        padding: 4px;
-    }
-
-    .tabla-posiciones th, .tabla-posiciones td {
-        padding: 2px;
-        font-size: 10px;
     }
 
     .tabla-posiciones th:nth-child(1) { width: 12%; }
