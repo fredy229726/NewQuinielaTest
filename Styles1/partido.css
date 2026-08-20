@@ -13,7 +13,7 @@
 }
 
 .logo-equipo img {
-    width: 50px;
+    width: 90px;
     height: 100%;
 }
 
@@ -51,4 +51,11 @@
 .logo-equipo input[type="radio"]:checked + label img {
     transform: scale(1.1);
     opacity: 1;
+}
+
+@media (max-width: 780px) {
+    .logo-equipo img {
+        width: 30px;
+        height: 100%;
+    }
 }
