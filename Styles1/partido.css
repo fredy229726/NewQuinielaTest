@@ -17,6 +17,16 @@
     height: 100%;
 }
 
+.icon {
+    flex: 1;
+    text-align: center;
+}
+
+.icon img {
+    width: 90px;
+    height: 100%;
+}
+
 .vs {
     flex: 0 0 auto;
     margin: 0 20px;
@@ -61,6 +71,11 @@
 
     .vs h2 {
         font-size: 16px;
+    }
+
+    .icon img {
+        width: 30px;
+        height: 100%;
     }
 
 }
