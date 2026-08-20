@@ -43,4 +43,15 @@ th {
         padding: 4px 6px;
         font-size: 8px;
     }
+
+    .tabla-posiciones, .tabla-resultados {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .tabla-posiciones th:nth-child(1) { width: 15%; }
+    .tabla-posiciones th:nth-child(2) { width: 25%; }
+    .tabla-posiciones th:nth-child(3) { width: 20%; }
+    .tabla-posiciones th:nth-child(4) { width: 20%; }
+    .tabla-posiciones th:nth-child(5) { width: 20%; }
 }
