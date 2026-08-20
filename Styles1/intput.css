@@ -51,7 +51,7 @@ fieldset {
 
 @media (max-width: 780px) {
     .field input {
-        width: 20%;
+        width: 40%;
         font-size: 10px;
     }
 }
