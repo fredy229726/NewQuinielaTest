@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+th {
+    background-color: ;
+}
+
+.w {
+    background-color:deepskyblue;
+}
+
+.l {
+    background-color:#FF1C1C;
+}
+
+.t {
+    background-color: lightgrey;
+}
+
+.tabla-responsiva {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabla-responsiva table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}

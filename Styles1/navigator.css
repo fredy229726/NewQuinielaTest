@@ -1,0 +1,25 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+            
+nav ul li {
+    display: inline;
+    margin-right: 2%;
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+            
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}

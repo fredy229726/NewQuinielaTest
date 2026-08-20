@@ -1,0 +1,42 @@
+html, body, *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: url('../Logos/beldum32x31resize.cur'), auto !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-image: url(''); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.9); 
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+button,
+a,
+input[type="button"],
+input[type="submit"],
+input[type="radio"],
+label:hover,
+button:hover,
+a:hover,
+footer,
+footer:hover,
+footer a:hover,
+i:hover,
+.logo-equipo input[type="radio"],
+.logo-equipo label img,
+.logo-equipo label img:hover {
+    cursor: url('../Logos/beldum32x31resize.cur'), pointer !important;
+}

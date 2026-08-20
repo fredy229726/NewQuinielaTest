@@ -1,0 +1,15 @@
+header {
+    background-color: rgba(0, 0, 0, 0.911); 
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+    border: 1px solid rgba(242, 5, 5, 0.882);
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgba(242, 5, 5, 0.882);
+    width: 100%;
+}
+            
+header:hover {
+    background-color: rgba(219, 10, 10, 0.922); 
+}

@@ -1,0 +1,56 @@
+input[type="submit"] {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #FF1C1C;
+    color: white;
+    border: 2px solid #000; 
+    border-radius: 25px; 
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive; 
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFDE00; 
+    color: black; 
+    transform: scale(1.1);
+}
+
+input[type="submit"]:active {
+    background-color: #3B4CCA;
+    transform: scale(0.95);
+}
+
+.field {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.field label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.field input {
+    width: 55%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Press Start 2P';
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 780px) {
+    .field input {
+        width: 20%;
+    }
+}
