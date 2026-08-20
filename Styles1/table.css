@@ -9,6 +9,10 @@ th, td {
     text-align: center;
 }
 
+td {
+   font-weight: bold;
+}
+
 
 th {
     background-color: ;
