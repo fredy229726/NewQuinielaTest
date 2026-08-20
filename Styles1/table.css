@@ -40,6 +40,7 @@ th {
 
 @media (max-width: 720px) {
     th {
+        padding: 4px 6px;
         font-size: 8px;
     }
 }
