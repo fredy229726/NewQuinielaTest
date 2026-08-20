@@ -64,6 +64,11 @@ th {
         word-wrap: break-word;
     }
 
+     table td {
+        font-weight: bold;
+        color: #FFFFFF;
+     }
+
     .col-pos { width: 12%; }
     .col-jugador { width: 34%; }
     .col-played { width: 18%; }
@@ -75,4 +80,5 @@ th {
     .tabla-posiciones th:nth-child(3) { width: 15%; }
     .tabla-posiciones th:nth-child(4) { width: 23%; }
     .tabla-posiciones th:nth-child(5) { width: 20%; }
+
 }
