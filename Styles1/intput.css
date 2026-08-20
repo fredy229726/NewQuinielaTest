@@ -35,7 +35,7 @@ input[type="submit"]:active {
     font-weight: bold;
 }
 .field input {
-    width: 55%;
+    width: 65%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
