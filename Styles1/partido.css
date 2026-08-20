@@ -59,3 +59,10 @@
         height: 100%;
     }
 }
+
+@media (min-width: 1024px) {
+    .logo-equipo img {
+        width: 90px;
+        height: 100%;
+    }
+}
