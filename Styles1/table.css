@@ -9,7 +9,7 @@ th, td {
     text-align: center;
 }
 
-td {
+table td {
    font-weight: bold;
    color: #FFFFFF;
 }
@@ -17,7 +17,6 @@ td {
 
 th {
     background-color: ;
-    color: #FFFFFF;
 }
 
 .w {
