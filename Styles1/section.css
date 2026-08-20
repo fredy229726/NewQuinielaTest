@@ -21,7 +21,7 @@ section:hover {
 }
 
 section h1 {
-    font-size: 18;
+    font-size: 18px;
     color: #fff;
     border-bottom: 2px solid #fff;
     padding-bottom: 1%;
@@ -30,6 +30,7 @@ section h1 {
 }
 
 section h2 {
+    font-size: 18px;
     color: #fff;
 }
             
