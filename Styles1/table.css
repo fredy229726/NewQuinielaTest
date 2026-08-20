@@ -37,3 +37,9 @@ th {
     min-width: 600px;
     border-collapse: collapse;
 }
+
+@media (max-width: 720px) {
+    th {
+        font-size: 12px;
+    }
+}
