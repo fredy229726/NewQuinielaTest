@@ -40,3 +40,9 @@ i:hover,
 .logo-equipo label img:hover {
     cursor: url('../Logos/beldum32x31resize.cur'), pointer !important;
 }
+
+@media (max-width: 780px) {
+    body {
+        font-size: 18px;
+    }
+}
