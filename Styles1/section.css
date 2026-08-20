@@ -47,14 +47,11 @@ audio {
 }
 
 @media (max-width: 720px) {
-    section {
-        width: 90%;
-    }
     section h1 {
         font-size: 12px;
     }
 
-    section h1 {
+    section h2 {
         font-size: 12px;
     }
 }
