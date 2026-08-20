@@ -55,26 +55,11 @@ th {
         word-wrap: break-word;
     }
 
-    .tabla-responsiva th:not([colspan]):nth-child(1), 
-    .tabla-responsiva td:nth-child(1) { width: 12%; }
-    
-    .tabla-responsiva th:not([colspan]):nth-child(2), 
-    .tabla-responsiva td:nth-child(2) { width: 34%; }
-    
-    .tabla-responsiva th:not([colspan]):nth-child(3), 
-    .tabla-responsiva td:nth-child(3) { width: 18%; }
-    
-    .tabla-responsiva th:not([colspan]):nth-child(4), 
-    .tabla-responsiva td:nth-child(4) { width: 18%; }
-    
-    .tabla-responsiva th:not([colspan]):nth-child(5), 
-    .tabla-responsiva td:nth-child(5) { width: 18%; }
-
-    
-    .tabla-posiciones, .tabla-resultados {
-        table-layout: fixed;
-        width: 100%;
-    }
+    .col-pos { width: 12%; }
+    .col-jugador { width: 34%; }
+    .col-played { width: 18%; }
+    .col-winrate { width: 18%; }
+    .col-pts { width: 18%; }
 
     .tabla-posiciones th:nth-child(1) { width: 12%; }
     .tabla-posiciones th:nth-child(2) { width: 30%; }
