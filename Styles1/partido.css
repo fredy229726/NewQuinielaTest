@@ -53,16 +53,9 @@
     opacity: 1;
 }
 
-@media (min-width: 780px) {
+@media screen and (min-width: 780px) {
     .logo-equipo img {
         width: 30px;
-        height: 100%;
-    }
-}
-
-@media (min-width: 1024px) {
-    .logo-equipo img {
-        width: 90px;
         height: 100%;
     }
 }
