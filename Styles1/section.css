@@ -42,14 +42,3 @@ section a {
 audio {
     display: none;
 }
-
-@media (min-width: 780px) {
-    main {
-        width: auto;
-        height: 100%;
-    }
-
-    section {
-        width: auto;
-    }
-}
