@@ -44,6 +44,33 @@ th {
         font-size: 8px;
     }
 
+    .tabla-responsiva table {
+        table-layout: fixed;
+    }
+
+    .tabla-responsiva th, 
+    .tabla-responsiva td {
+        padding: 4px 6px;
+        font-size: 8px;
+        word-wrap: break-word;
+    }
+
+    .tabla-responsiva th:not([colspan]):nth-child(1), 
+    .tabla-responsiva td:nth-child(1) { width: 12%; }
+    
+    .tabla-responsiva th:not([colspan]):nth-child(2), 
+    .tabla-responsiva td:nth-child(2) { width: 34%; }
+    
+    .tabla-responsiva th:not([colspan]):nth-child(3), 
+    .tabla-responsiva td:nth-child(3) { width: 18%; }
+    
+    .tabla-responsiva th:not([colspan]):nth-child(4), 
+    .tabla-responsiva td:nth-child(4) { width: 18%; }
+    
+    .tabla-responsiva th:not([colspan]):nth-child(5), 
+    .tabla-responsiva td:nth-child(5) { width: 18%; }
+
+    
     .tabla-posiciones, .tabla-resultados {
         table-layout: fixed;
         width: 100%;
