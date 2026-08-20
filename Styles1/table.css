@@ -44,6 +44,10 @@ th {
         font-size: 8px;
     }
 
+    .tabla-responsiva {
+        width: 100%;
+    }
+
     .tabla-responsiva table {
         table-layout: fixed;
     }
