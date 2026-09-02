@@ -1,0 +1,165 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgba(231, 226, 226, 0.764);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-size: 30px;
+}
+
+table td {
+   color: #FFFFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   border 1px solid #FFFFFF;
+   border-radius: 5px;
+   box-shadow 1px 1px 20px 5px rgba(231, 226, 226, 0.764);
+}
+
+.data {
+    font-weight: bold;
+}
+
+.celda-central1 {
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: none;
+}
+
+.celda-central2 {
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-top: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.celda-central3 {
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+.celda-central4 {
+    border-right: 1px solid #FFFFFF;
+    border-left: none;
+    border-bottom: none;
+}
+
+.celda-central5 {
+    border-right: 1px solid #FFFFFF;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.celda-central6 {
+    border-right: 1px solid #FFFFFF;
+    border-left: none;
+    border-bottom: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+.celda-central7 {
+    border-right: none;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: none;
+}
+
+.celda-central8 {
+    border-right: none;
+    border-left: 1px solid #FFFFFF;
+    border-top: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.celda-central9 {
+    border-right: none;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+th {
+    background-color: ;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgba(231, 226, 226, 0.764);
+}
+
+.w {
+    background-color:deepskyblue;
+}
+
+.l {
+    background-color:#FF1C1C;
+}
+
+.t {
+    background-color: lightgrey;
+}
+
+.tabla-responsiva {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabla-responsiva table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+@media (max-width: 720px) {
+    th, td {
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+
+    .data {
+        font-size: 12px;
+    }
+
+    .tabla-responsiva {
+        width: 100%;
+    }
+
+    .tabla-responsiva table {
+        table-layout: fixed;
+    }
+
+    .tabla-responsiva th, 
+    .tabla-responsiva td {
+        padding: 4px 6px;
+        font-size: 8px;
+        word-wrap: break-word;
+    }
+
+     table td {
+        font-weight: bold;
+        color: #FFFFFF;
+     }
+
+    .col-pos { width: 12%; }
+    .col-jugador { width: 34%; }
+    .col-played { width: 18%; }
+    .col-winrate { width: 18%; }
+    .col-pts { width: 18%; }
+
+    .tabla-posiciones th:nth-child(1) { width: 12%; }
+    .tabla-posiciones th:nth-child(2) { width: 30%; }
+    .tabla-posiciones th:nth-child(3) { width: 15%; }
+    .tabla-posiciones th:nth-child(4) { width: 23%; }
+    .tabla-posiciones th:nth-child(5) { width: 20%; }
+
+}
