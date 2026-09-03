@@ -26,6 +26,7 @@ table td {
 
 .data {
     font-weight: bold;
+    font-size: 30px;
 }
 
 .celda-central1 {
@@ -161,5 +162,10 @@ th {
     .tabla-posiciones th:nth-child(3) { width: 15%; }
     .tabla-posiciones th:nth-child(4) { width: 23%; }
     .tabla-posiciones th:nth-child(5) { width: 20%; }
+
+    .data {
+        font-weight: bold;
+        font-size: 12px;
+    }
 
 }
