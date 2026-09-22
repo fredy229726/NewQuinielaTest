@@ -54,7 +54,7 @@ btn.addEventListener('click', function() {
 
     }
 
-    addDoc(collection(db, "CopaRetroTest1"), parametrosEmail)
+    addDoc(collection(db, "CopaRetro1"), parametrosEmail)
     .then(() => {
         btn.value = 'CAPTURAR QUINIELA';
     
