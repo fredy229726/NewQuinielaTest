@@ -29,12 +29,9 @@ btn.addEventListener('click', function() {
 
     const seleccionBatalla1 = document.querySelector('input[name="ganador1"]:checked');
     const seleccionBatalla2 = document.querySelector('input[name="ganador2"]:checked');
-    const seleccionBatalla3 = document.querySelector('input[name="ganador3"]:checked');
-    const seleccionBatalla4 = document.querySelector('input[name="ganador4"]:checked');
     const nombreCapturado = document.getElementById('nombre').value;
 
-    if (!seleccionBatalla1 || !seleccionBatalla2 || !nombreCapturado || 
-        !seleccionBatalla3 || !seleccionBatalla4) {
+    if (!seleccionBatalla1 || !seleccionBatalla2 || !nombreCapturado) {
         btn.value = 'CAPTURAR QUINIELA';
         Swal.fire({
             title: '¡Faltan Datos!',
@@ -48,13 +45,11 @@ btn.addEventListener('click', function() {
     const parametrosEmail = {
         nombre: nombreCapturado,
         ganador1: seleccionBatalla1.value,
-        ganador2: seleccionBatalla2.value,
-        ganador3: seleccionBatalla3.value,
-        ganador4: seleccionBatalla4.value
+        ganador2: seleccionBatalla2.value
 
     }
 
-    addDoc(collection(db, "CopaRetroEliminatoria"), parametrosEmail)
+    addDoc(collection(db, "CopaRetro2"), parametrosEmail)
     .then(() => {
         btn.value = 'CAPTURAR QUINIELA';
     
