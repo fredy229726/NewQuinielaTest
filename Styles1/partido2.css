@@ -12,9 +12,19 @@
     text-align: center;
 }
 
+.logo-equipo2 {
+    flex: 1;
+    text-align: center;
+}
+
 .logo-equipo img {
     width: auto;
-    height: 150px;
+    height: 180px;
+}
+
+.logo-equipo2 img {
+    width: auto;
+    height: 180px;
 }
 
 .vs {
@@ -58,5 +68,10 @@
     .logo-equipo img {
         height: auto;
         width: 50px;
+    }
+
+    .logo-equipo2 img {
+        height: auto;
+        width: 30px;
     }
 }
